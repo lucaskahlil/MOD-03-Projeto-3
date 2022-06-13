@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    max-width: 100%;
+    background-color: rgb(53, 139, 190);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    max-height: 70px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+main {  
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+}
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: solid 1px black;
+    background-color: white;
+    padding: 20px;
+}
+
+.containerSobre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+p {
+    width: 60%;
+}
+
+.imagemSobre {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.formacoes {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    height: 80%;
+    border: solid 1px black;
+    background-color: white;
+    padding: 20px;
+}
+
+.containerFormacoes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+.cardFormacoes {
+    height: 250px;
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: solid 1px black;
+    padding: 20px;
+    background-color: white;
+}
+.titulos {
+    display: flex;
+    justify-content: center;
+}
+.containerProjetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+
+.cardProjetos {
+    height: 200px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    tex
+}
+
+div.cardProjetos img {
+    height: 80%;
+    width: 100%;
+}
+
+.buttoncontainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.buttoncontainer>button {
+    width: 33%;
+    background-color: rgb(53, 139, 190);
+    border: none;
+    border-radius: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.logoRedesSociais {
+    height: 5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    height: 70px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 3rem;
+    color: black;
+}
